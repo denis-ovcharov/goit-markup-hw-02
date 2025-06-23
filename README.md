@@ -1,3 +1,2 @@
-# my-first-project
+HOMEWORK-2
 
-homework-1
