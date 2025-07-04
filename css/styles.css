@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto",sans-serif;
-    color:#2e2f42; 
+    color:#434455;
+    background-color: #FFFFFF;
 }
 ul{
     list-style-type: none;
@@ -63,7 +64,6 @@ a{
 
 .hero-btn {
     cursor: pointer;
-    border-radius: 4px;
     width: 169px;
     height: 56px;
     background-color: #4d5ae5;
