@@ -29,11 +29,15 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus,
 .navigation-list-item-link:active {
     color: #404bbf;
+}
+.contacts {
+    font-style: normal;
 }
 .contacts-link {
     line-height: 1.5;
@@ -44,30 +48,25 @@ a {
 .contacts-link:focus {
     color: #404bbf;
 }
-.contacts-list {
-    font-style: normal;
-}
 /* HERO SECTION */
 
-.hero-section {
+.hero {
     background-color:#2e2f42;
     
 }
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em; 
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 
 .hero-btn {
     cursor: pointer;
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
-    color: #fff;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -79,13 +78,14 @@ a {
 
 /* BENEFITS */
 
-.benefits-list-item-title {
+.item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.benefits-list-item-descr {
+.item-descr {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -93,53 +93,32 @@ a {
 
 /* TEAM */
 
-.team-container {
+.team {
     background-color: #f4f4fd;
-    text-align: center;
 }
 .team-title {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;  
+    line-height: 1.11;
+    letter-spacing: 0.02em; 
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-.team-list-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.team-list {
+    background-color: #FFFFFF;
 }
-.team-list-item-descr {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.team-list-item:hover,
-.team-list-item:focus {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
 /* PORTFOLIO */
 
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-.portfolio-list-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.portfolio-list-item-descr {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 /* FOOTER */
 
 .bottom-container {
